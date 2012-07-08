@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A950C93D15A9134600D594E0 /* KWMultaConfirmaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A950C93B15A9134600D594E0 /* KWMultaConfirmaViewController.m */; };
+		A950C94015A91BF200D594E0 /* KWMultaConfirmaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A950C93F15A91BF200D594E0 /* KWMultaConfirmaViewController.xib */; };
+		A950C94215A91C1600D594E0 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = A950C94115A91C1600D594E0 /* red.png */; };
+		A950C94715A9252D00D594E0 /*  .m in Sources */ = {isa = PBXBuildFile; fileRef = A950C94515A9252D00D594E0 /*  .m */; };
+		A950C94815A9252D00D594E0 /* KWMultaInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A950C94615A9252D00D594E0 /* KWMultaInfoViewController.xib */; };
+		A950C94A15A92CB000D594E0 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = A950C94915A92CB000D594E0 /* splash.png */; };
+		A950C94C15A92CB500D594E0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A950C94B15A92CB500D594E0 /* Default.png */; };
+		A950C94E15A92CB900D594E0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A950C94D15A92CB900D594E0 /* Default@2x.png */; };
+		A950C95715A933DE00D594E0 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A950C95015A933DE00D594E0 /* Icon-72.png */; };
+		A950C95815A933DE00D594E0 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A950C95115A933DE00D594E0 /* Icon-Small-50.png */; };
+		A950C95915A933DE00D594E0 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = A950C95215A933DE00D594E0 /* Icon-Small.png */; };
+		A950C95A15A933DE00D594E0 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A950C95315A933DE00D594E0 /* Icon-Small@2x.png */; };
+		A950C95B15A933DE00D594E0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A950C95415A933DE00D594E0 /* Icon.png */; };
+		A950C95C15A933DE00D594E0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A950C95515A933DE00D594E0 /* Icon@2x.png */; };
+		A950C95D15A933DE00D594E0 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = A950C95615A933DE00D594E0 /* iTunesArtwork */; };
+		A950C95F15A933E600D594E0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A950C95E15A933E600D594E0 /* Icon.png */; };
+		A950C96115A933EF00D594E0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A950C96015A933EF00D594E0 /* Icon@2x.png */; };
+		A98573E015A74F8500AA2A6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98573DF15A74F8500AA2A6F /* UIKit.framework */; };
+		A98573E215A74F8500AA2A6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98573E115A74F8500AA2A6F /* Foundation.framework */; };
+		A98573E415A74F8500AA2A6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98573E315A74F8500AA2A6F /* CoreGraphics.framework */; };
+		A98573EA15A74F8500AA2A6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A98573E815A74F8500AA2A6F /* InfoPlist.strings */; };
+		A98573EC15A74F8500AA2A6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A98573EB15A74F8500AA2A6F /* main.m */; };
+		A98573F015A74F8500AA2A6F /* KWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A98573EF15A74F8500AA2A6F /* KWAppDelegate.m */; };
+		A98573F315A74F8500AA2A6F /* KWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A98573F215A74F8500AA2A6F /* KWViewController.m */; };
+		A98573F615A74F8500AA2A6F /* KWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A98573F415A74F8500AA2A6F /* KWViewController.xib */; };
+		A985740215A74FF500AA2A6F /* kBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A985740115A74FF500AA2A6F /* kBackground.png */; };
+		A985740415A7501500AA2A6F /* kLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A985740315A7501500AA2A6F /* kLogo.png */; };
+		A985740615A7506C00AA2A6F /* kBgFoto.png in Resources */ = {isa = PBXBuildFile; fileRef = A985740515A7506C00AA2A6F /* kBgFoto.png */; };
+		A985740815A750B200AA2A6F /* orangegradtx.png in Resources */ = {isa = PBXBuildFile; fileRef = A985740715A750B200AA2A6F /* orangegradtx.png */; };
+		A985740A15A752A100AA2A6F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A985740915A752A000AA2A6F /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A950C93A15A9134600D594E0 /* KWMultaConfirmaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWMultaConfirmaViewController.h; sourceTree = "<group>"; };
+		A950C93B15A9134600D594E0 /* KWMultaConfirmaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWMultaConfirmaViewController.m; sourceTree = "<group>"; };
+		A950C93F15A91BF200D594E0 /* KWMultaConfirmaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KWMultaConfirmaViewController.xib; sourceTree = "<group>"; };
+		A950C94115A91C1600D594E0 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = ../../../Desktop/multas_sociais/red.png; sourceTree = "<group>"; };
+		A950C94415A9252D00D594E0 /* KWMultaInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWMultaInfoViewController.h; sourceTree = "<group>"; };
+		A950C94515A9252D00D594E0 /*  .m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = " .m"; sourceTree = "<group>"; };
+		A950C94615A9252D00D594E0 /* KWMultaInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KWMultaInfoViewController.xib; sourceTree = "<group>"; };
+		A950C94915A92CB000D594E0 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = ../../../Desktop/multas_sociais/splash.png; sourceTree = "<group>"; };
+		A950C94B15A92CB500D594E0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A950C94D15A92CB900D594E0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A950C95015A933DE00D594E0 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		A950C95115A933DE00D594E0 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		A950C95215A933DE00D594E0 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		A950C95315A933DE00D594E0 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		A950C95415A933DE00D594E0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A950C95515A933DE00D594E0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A950C95615A933DE00D594E0 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		A950C95E15A933E600D594E0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A950C96015A933EF00D594E0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A98573DB15A74F8500AA2A6F /* Multas Sociais.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multas Sociais.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98573DF15A74F8500AA2A6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A98573E115A74F8500AA2A6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A98573E315A74F8500AA2A6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A98573E715A74F8500AA2A6F /* Multas Sociais-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Multas Sociais-Info.plist"; sourceTree = "<group>"; };
+		A98573E915A74F8500AA2A6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A98573EB15A74F8500AA2A6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A98573ED15A74F8500AA2A6F /* Multas Sociais-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Multas Sociais-Prefix.pch"; sourceTree = "<group>"; };
+		A98573EE15A74F8500AA2A6F /* KWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWAppDelegate.h; sourceTree = "<group>"; };
+		A98573EF15A74F8500AA2A6F /* KWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWAppDelegate.m; sourceTree = "<group>"; };
+		A98573F115A74F8500AA2A6F /* KWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWViewController.h; sourceTree = "<group>"; };
+		A98573F215A74F8500AA2A6F /* KWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWViewController.m; sourceTree = "<group>"; };
+		A98573F515A74F8500AA2A6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KWViewController.xib; sourceTree = "<group>"; };
+		A985740115A74FF500AA2A6F /* kBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kBackground.png; sourceTree = "<group>"; };
+		A985740315A7501500AA2A6F /* kLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kLogo.png; sourceTree = "<group>"; };
+		A985740515A7506C00AA2A6F /* kBgFoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kBgFoto.png; sourceTree = "<group>"; };
+		A985740715A750B200AA2A6F /* orangegradtx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangegradtx.png; sourceTree = "<group>"; };
+		A985740915A752A000AA2A6F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A98573D815A74F8500AA2A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A985740A15A752A100AA2A6F /* QuartzCore.framework in Frameworks */,
+				A98573E015A74F8500AA2A6F /* UIKit.framework in Frameworks */,
+				A98573E215A74F8500AA2A6F /* Foundation.framework in Frameworks */,
+				A98573E415A74F8500AA2A6F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9459E2B15A9F88700FCBF22 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		A950C93915A9131F00D594E0 /* KWMultaConfirmaViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A950C93A15A9134600D594E0 /* KWMultaConfirmaViewController.h */,
+				A950C93B15A9134600D594E0 /* KWMultaConfirmaViewController.m */,
+				A950C93F15A91BF200D594E0 /* KWMultaConfirmaViewController.xib */,
+			);
+			name = KWMultaConfirmaViewController;
+			sourceTree = "<group>";
+		};
+		A950C94315A9251000D594E0 /* KWMultaInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A950C94415A9252D00D594E0 /* KWMultaInfoViewController.h */,
+				A950C94515A9252D00D594E0 /*  .m */,
+				A950C94615A9252D00D594E0 /* KWMultaInfoViewController.xib */,
+			);
+			name = KWMultaInfoViewController;
+			sourceTree = "<group>";
+		};
+		A950C94F15A933D000D594E0 /* icones */ = {
+			isa = PBXGroup;
+			children = (
+				A950C95015A933DE00D594E0 /* Icon-72.png */,
+				A950C95115A933DE00D594E0 /* Icon-Small-50.png */,
+				A950C95215A933DE00D594E0 /* Icon-Small.png */,
+				A950C95315A933DE00D594E0 /* Icon-Small@2x.png */,
+				A950C95415A933DE00D594E0 /* Icon.png */,
+				A950C95515A933DE00D594E0 /* Icon@2x.png */,
+				A950C95615A933DE00D594E0 /* iTunesArtwork */,
+			);
+			name = icones;
+			sourceTree = "<group>";
+		};
+		A98573D015A74F8400AA2A6F = {
+			isa = PBXGroup;
+			children = (
+				A950C96015A933EF00D594E0 /* Icon@2x.png */,
+				A950C95E15A933E600D594E0 /* Icon.png */,
+				A950C94D15A92CB900D594E0 /* Default@2x.png */,
+				A950C94B15A92CB500D594E0 /* Default.png */,
+				A985740915A752A000AA2A6F /* QuartzCore.framework */,
+				A98573E515A74F8500AA2A6F /* Multas Sociais */,
+				A98573DE15A74F8500AA2A6F /* Frameworks */,
+				A98573DC15A74F8500AA2A6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A98573DC15A74F8500AA2A6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A98573DB15A74F8500AA2A6F /* Multas Sociais.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A98573DE15A74F8500AA2A6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A98573DF15A74F8500AA2A6F /* UIKit.framework */,
+				A98573E115A74F8500AA2A6F /* Foundation.framework */,
+				A98573E315A74F8500AA2A6F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A98573E515A74F8500AA2A6F /* Multas Sociais */ = {
+			isa = PBXGroup;
+			children = (
+				A98573FD15A74F9C00AA2A6F /* Resources */,
+				A98573FC15A74F9600AA2A6F /* App */,
+				A98573E615A74F8500AA2A6F /* Supporting Files */,
+			);
+			path = "Multas Sociais";
+			sourceTree = "<group>";
+		};
+		A98573E615A74F8500AA2A6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A98573E715A74F8500AA2A6F /* Multas Sociais-Info.plist */,
+				A98573E815A74F8500AA2A6F /* InfoPlist.strings */,
+				A98573EB15A74F8500AA2A6F /* main.m */,
+				A98573ED15A74F8500AA2A6F /* Multas Sociais-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A98573FC15A74F9600AA2A6F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A9459E2B15A9F88700FCBF22 /* Libs */,
+				A98573FF15A74FAB00AA2A6F /* AppDelegate */,
+				A98573FE15A74FA400AA2A6F /* Controllers */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		A98573FD15A74F9C00AA2A6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A950C94F15A933D000D594E0 /* icones */,
+				A950C94915A92CB000D594E0 /* splash.png */,
+				A985740515A7506C00AA2A6F /* kBgFoto.png */,
+				A950C94115A91C1600D594E0 /* red.png */,
+				A985740315A7501500AA2A6F /* kLogo.png */,
+				A985740715A750B200AA2A6F /* orangegradtx.png */,
+				A985740115A74FF500AA2A6F /* kBackground.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A98573FE15A74FA400AA2A6F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A950C94315A9251000D594E0 /* KWMultaInfoViewController */,
+				A950C93915A9131F00D594E0 /* KWMultaConfirmaViewController */,
+				A985740015A74FBB00AA2A6F /* KWViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A98573FF15A74FAB00AA2A6F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A98573EE15A74F8500AA2A6F /* KWAppDelegate.h */,
+				A98573EF15A74F8500AA2A6F /* KWAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A985740015A74FBB00AA2A6F /* KWViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A98573F115A74F8500AA2A6F /* KWViewController.h */,
+				A98573F215A74F8500AA2A6F /* KWViewController.m */,
+				A98573F415A74F8500AA2A6F /* KWViewController.xib */,
+			);
+			name = KWViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A98573DA15A74F8500AA2A6F /* Multas Sociais */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98573F915A74F8500AA2A6F /* Build configuration list for PBXNativeTarget "Multas Sociais" */;
+			buildPhases = (
+				A98573D715A74F8500AA2A6F /* Sources */,
+				A98573D815A74F8500AA2A6F /* Frameworks */,
+				A98573D915A74F8500AA2A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multas Sociais";
+			productName = "Multas Sociais";
+			productReference = A98573DB15A74F8500AA2A6F /* Multas Sociais.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A98573D215A74F8400AA2A6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A98573D515A74F8400AA2A6F /* Build configuration list for PBXProject "Multas Sociais" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A98573D015A74F8400AA2A6F;
+			productRefGroup = A98573DC15A74F8500AA2A6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A98573DA15A74F8500AA2A6F /* Multas Sociais */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A98573D915A74F8500AA2A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98573EA15A74F8500AA2A6F /* InfoPlist.strings in Resources */,
+				A98573F615A74F8500AA2A6F /* KWViewController.xib in Resources */,
+				A985740215A74FF500AA2A6F /* kBackground.png in Resources */,
+				A985740415A7501500AA2A6F /* kLogo.png in Resources */,
+				A985740615A7506C00AA2A6F /* kBgFoto.png in Resources */,
+				A985740815A750B200AA2A6F /* orangegradtx.png in Resources */,
+				A950C94015A91BF200D594E0 /* KWMultaConfirmaViewController.xib in Resources */,
+				A950C94215A91C1600D594E0 /* red.png in Resources */,
+				A950C94815A9252D00D594E0 /* KWMultaInfoViewController.xib in Resources */,
+				A950C94A15A92CB000D594E0 /* splash.png in Resources */,
+				A950C94C15A92CB500D594E0 /* Default.png in Resources */,
+				A950C94E15A92CB900D594E0 /* Default@2x.png in Resources */,
+				A950C95715A933DE00D594E0 /* Icon-72.png in Resources */,
+				A950C95815A933DE00D594E0 /* Icon-Small-50.png in Resources */,
+				A950C95915A933DE00D594E0 /* Icon-Small.png in Resources */,
+				A950C95A15A933DE00D594E0 /* Icon-Small@2x.png in Resources */,
+				A950C95B15A933DE00D594E0 /* Icon.png in Resources */,
+				A950C95C15A933DE00D594E0 /* Icon@2x.png in Resources */,
+				A950C95D15A933DE00D594E0 /* iTunesArtwork in Resources */,
+				A950C95F15A933E600D594E0 /* Icon.png in Resources */,
+				A950C96115A933EF00D594E0 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A98573D715A74F8500AA2A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98573EC15A74F8500AA2A6F /* main.m in Sources */,
+				A98573F015A74F8500AA2A6F /* KWAppDelegate.m in Sources */,
+				A98573F315A74F8500AA2A6F /* KWViewController.m in Sources */,
+				A950C93D15A9134600D594E0 /* KWMultaConfirmaViewController.m in Sources */,
+				A950C94715A9252D00D594E0 /*  .m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A98573E815A74F8500AA2A6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98573E915A74F8500AA2A6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A98573F415A74F8500AA2A6F /* KWViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98573F515A74F8500AA2A6F /* en */,
+			);
+			name = KWViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A98573F715A74F8500AA2A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A98573F815A74F8500AA2A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A98573FA15A74F8500AA2A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multas Sociais/Multas Sociais-Prefix.pch";
+				INFOPLIST_FILE = "Multas Sociais/Multas Sociais-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A98573FB15A74F8500AA2A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multas Sociais/Multas Sociais-Prefix.pch";
+				INFOPLIST_FILE = "Multas Sociais/Multas Sociais-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A98573D515A74F8400AA2A6F /* Build configuration list for PBXProject "Multas Sociais" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98573F715A74F8500AA2A6F /* Debug */,
+				A98573F815A74F8500AA2A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98573F915A74F8500AA2A6F /* Build configuration list for PBXNativeTarget "Multas Sociais" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98573FA15A74F8500AA2A6F /* Debug */,
+				A98573FB15A74F8500AA2A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A98573D215A74F8400AA2A6F /* Project object */;
+}
